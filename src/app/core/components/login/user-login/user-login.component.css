@@ -1,0 +1,68 @@
+.line1{
+    position: relative;
+    bottom: 30px;
+    border: none;
+    border-bottom: 2px solid grey; 
+    opacity: 40;
+}
+
+
+.head{
+    display: flex;
+    position: relative;
+    right: 18rem;
+    bottom: 5rem;
+}
+
+.user:hover ,.admin:hover{
+    color: rgb(54, 37, 166);
+  }
+
+  
+  .user::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    margin-left: 3px;
+    margin-bottom: 10px;
+    transform: scaleX(0);
+    height: 2.5px;
+    top: 34px;
+    left: 0px;
+    background-color: rgb(54, 37, 166);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-in;
+  }
+  
+  .user:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+.submit_button{
+  display: block; 
+  margin-left: 5px;
+  background-color: rgb(54, 37, 166); 
+  color: white; 
+  text-decoration: 0;
+  font-size: 18px; 
+  font-weight: 500;
+  border-radius: 7px; 
+  width: 5rem;
+  height: 3rem;
+  
+}
+
+.submit_button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(55, 80, 134);
+}
+
+
+.form{
+    width: 55rem;
+    position: absolute;
+    display: block;
+   
+}
+

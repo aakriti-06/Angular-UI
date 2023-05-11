@@ -1,0 +1,49 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar-brand{
+    font-size: 25px;
+    position: relative;
+    right : 48rem;
+    color: rgb(54, 37, 166);
+    font-weight: 400;
+}
+
+.container{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin: 0px; 
+   
+
+}
+.vertical-line{
+    border-left: 4px solid grey;  
+    border-radius: 10px;
+    height: 65px;
+    position: relative;
+    right : 24rem;
+
+}
+
+.img{
+    width: 100px; 
+    border-style: solid;
+    border-radius: 50px;
+}
+
+#navbarSupportedContent{
+    position: absolute;
+    right : 50px;
+}
+
+#navbarSupportedContent:hover{
+    font-size: 20px;
+    transition: ease-in-out
+}
